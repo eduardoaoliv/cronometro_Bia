@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(55,55,55);
+    margin-left: 20px;
+}
+
+header{
+    font-size: 2em;
+    text-align: center;
+    color: darkgrey;
+    text-shadow: 10px 10px 10px black;
+    height: 70px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.indice{
+    width: 70px;
+    height: 40px; 
+    margin: 1px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: white;
+}
+
+.botao{
+    width: 70px;
+    height: 30px; 
+    margin: 1px;
+    background-color: white;
+    border-radius: 12px;
+    border:3px solid gray;
+    border-style: outset;
+    box-shadow: 2px 2px 2px 0px black;
+}
+.botao_inicio{
+    width: 70px;
+    height: 30px; 
+    margin: 1px;
+    background-color: white;
+}
+.botao_fim{
+    width: 70px;
+    height: 30px; 
+    margin: 1px;
+    background-color: white;
+}
+.botao_parcial{
+    width: 70px;
+    height: 30px; 
+    margin: 1px;
+    background-color: white;
+}
+.botao_id{
+    width: 70px;
+    height: 30px; 
+    margin: 1px;
+    background-color: white;
+    font-weight: bold;
+}
+
+#btn_reset{
+    height: 40px;
+    margin-left: 190px;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+#btn_total{
+    height: 40px;
+    margin-left: 115px;
+    margin-top: 30px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+footer{
+    font-style: italic;
+    color:white;
+    font-size: 1em;
+    margin-top: 10px;
+    
+}

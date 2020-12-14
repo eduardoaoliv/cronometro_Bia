@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cornômetro</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header><h1>Cronômetro</h1></header>
+
+    <div>
+        <button class="indice">Id</button>
+        <button class="indice">Start</button>
+        <button class="indice">Stop</button>
+        <button class="indice">Início</button>
+        <button class="indice">Fim</button>
+        <button class="indice">Parcial</button>
+    </div>
+
+    <div>
+        <button class="botao_id">01</button>
+        <button class="botao" id="btn_start01">Start</button>
+        <button class="botao" id="btn_stop01">Stop</button>
+        <button class="botao_inicio" id="btn_inicio01">---</button>
+        <button class="botao_fim" id="btn_fim01">---</button>
+        <button class="botao_parcial" id="btn_parcial01">---</button>
+    </div>
+    <div>
+        <button class="botao_id">02</button>
+        <button class="botao" id="btn_start02">Start</button>
+        <button class="botao" id="btn_stop02">Stop</button>
+        <button class="botao_inicio" id="btn_inicio02">---</button>
+        <button class="botao_fim" id="btn_fim02">---</button>
+        <button class="botao_parcial" id="btn_parcial02">---</button>
+    </div>
+    <div>
+        <button class="botao_id">03</button>
+        <button class="botao" id="btn_start03">Start</button>
+        <button class="botao" id="btn_stop03">Stop</button>
+        <button class="botao_inicio" id="btn_inicio03">---</button>
+        <button class="botao_fim" id="btn_fim03">---</button>
+        <button class="botao_parcial" id="btn_parcial03">---</button>
+    </div>
+    <div>
+        <button class="botao_id">04</button>
+        <button class="botao" id="btn_start04">Start</button>
+        <button class="botao" id="btn_stop04">Stop</button>
+        <button class="botao_inicio" id="btn_inicio04">---</button>
+        <button class="botao_fim" id="btn_fim04">---</button>
+        <button class="botao_parcial" id="btn_parcial04">---</button>
+    </div>
+    <div>
+        <button class="botao_id">05</button>
+        <button class="botao" id="btn_start05">Start</button>
+        <button class="botao" id="btn_stop05">Stop</button>
+        <button class="botao_inicio" id="btn_inicio05">---</button>
+        <button class="botao_fim" id="btn_fim05">---</button>
+        <button class="botao_parcial" id="btn_parcial05">---</button>
+    </div>
+    <div>
+        <button class="botao_id">06</button>
+        <button class="botao" id="btn_start06">Start</button>
+        <button class="botao" id="btn_stop06">Stop</button>
+        <button class="botao_inicio" id="btn_inicio06">---</button>
+        <button class="botao_fim" id="btn_fim06">---</button>
+        <button class="botao_parcial" id="btn_parcial06">---</button>
+    </div>
+    <div>
+        <button class="botao_id">07</button>
+        <button class="botao" id="btn_start07">Start</button>
+        <button class="botao" id="btn_stop07">Stop</button>
+        <button class="botao_inicio" id="btn_inicio07">---</button>
+        <button class="botao_fim" id="btn_fim07">---</button>
+        <button class="botao_parcial" id="btn_parcial07">---</button>
+    </div>
+    <div>
+        <button class="botao_id">08</button>
+        <button class="botao" id="btn_start08">Start</button>
+        <button class="botao" id="btn_stop08">Stop</button>
+        <button class="botao_inicio" id="btn_inicio08">---</button>
+        <button class="botao_fim" id="btn_fim08">---</button>
+        <button class="botao_parcial" id="btn_parcial08">---</button>
+    </div>
+    <div>
+        <button class="botao_id">09</button>
+        <button class="botao" id="btn_start09">Start</button>
+        <button class="botao" id="btn_stop09">Stop</button>
+        <button class="botao_inicio" id="btn_inicio09">---</button>
+        <button class="botao_fim" id="btn_fim09">---</button>
+        <button class="botao_parcial" id="btn_parcial09">---</button>
+    </div>
+    <div>
+        <button class="botao_id">10</button>
+        <button class="botao" id="btn_start10">Start</button>
+        <button class="botao" id="btn_stop10">Stop</button>
+        <button class="botao_inicio" id="btn_inicio10">---</button>
+        <button class="botao_fim" id="btn_fim10">---</button>
+        <button class="botao_parcial" id="btn_parcial10">---</button>
+    </div>
+    <div>
+        <button class="botao_id">11</button>
+        <button class="botao" id="btn_start11">Start</button>
+        <button class="botao" id="btn_stop11">Stop</button>
+        <button class="botao_inicio" id="btn_inicio11">---</button>
+        <button class="botao_fim" id="btn_fim11">---</button>
+        <button class="botao_parcial" id="btn_parcial11">---</button>
+    </div>
+    <div>
+        <button class="botao_id">12</button>
+        <button class="botao" id="btn_start12">Start</button>
+        <button class="botao" id="btn_stop12">Stop</button>
+        <button class="botao_inicio" id="btn_inicio12">---</button>
+        <button class="botao_fim" id="btn_fim12">---</button>
+        <button class="botao_parcial" id="btn_parcial12">---</button>
+    </div>
+    <div>
+        <button class="botao_id">13</button>
+        <button class="botao" id="btn_start13">Start</button>
+        <button class="botao" id="btn_stop13">Stop</button>
+        <button class="botao_inicio" id="btn_inicio13">---</button>
+        <button class="botao_fim" id="btn_fim13">---</button>
+        <button class="botao_parcial" id="btn_parcial13">---</button>
+    </div>
+    <div>
+        <button class="botao_id">14</button>
+        <button class="botao" id="btn_start14">Start</button>
+        <button class="botao" id="btn_stop14">Stop</button>
+        <button class="botao_inicio" id="btn_inicio14">---</button>
+        <button class="botao_fim" id="btn_fim14">---</button>
+        <button class="botao_parcial" id="btn_parcial14">---</button>
+    </div>
+    <div>
+        <button class="botao_id">15</button>
+        <button class="botao" id="btn_start15">Start</button>
+        <button class="botao" id="btn_stop15">Stop</button>
+        <button class="botao_inicio" id="btn_inicio15">---</button>
+        <button class="botao_fim" id="btn_fim15">---</button>
+        <button class="botao_parcial" id="btn_parcial15">---</button>
+    </div>
+    <div>
+        <button class="botao_id">16</button>
+        <button class="botao" id="btn_start16">Start</button>
+        <button class="botao" id="btn_stop16">Stop</button>
+        <button class="botao_inicio" id="btn_inicio16">---</button>
+        <button class="botao_fim" id="btn_fim16">---</button>
+        <button class="botao_parcial" id="btn_parcial16">---</button>
+    </div>
+    <div>
+        <button class="botao_id">17</button>
+        <button class="botao" id="btn_start17">Start</button>
+        <button class="botao" id="btn_stop17">Stop</button>
+        <button class="botao_inicio" id="btn_inicio17">---</button>
+        <button class="botao_fim" id="btn_fim17">---</button>
+        <button class="botao_parcial" id="btn_parcial17">---</button>
+    </div>
+    <div>
+        <button class="botao_id">18</button>
+        <button class="botao" id="btn_start18">Start</button>
+        <button class="botao" id="btn_stop18">Stop</button>
+        <button class="botao_inicio" id="btn_inicio18">---</button>
+        <button class="botao_fim" id="btn_fim18">---</button>
+        <button class="botao_parcial" id="btn_parcial18">---</button>
+    </div>
+    <div>
+        <button class="botao_id">19</button>
+        <button class="botao" id="btn_start19">Start</button>
+        <button class="botao" id="btn_stop19">Stop</button>
+        <button class="botao_inicio" id="btn_inicio19">---</button>
+        <button class="botao_fim" id="btn_fim19">---</button>
+        <button class="botao_parcial" id="btn_parcial19">---</button>
+    </div>
+    <div>
+        <button class="botao_id">20</button>
+        <button class="botao" id="btn_start20">Start</button>
+        <button class="botao" id="btn_stop20">Stop</button>
+        <button class="botao_inicio" id="btn_inicio20">---</button>
+        <button class="botao_fim" id="btn_fim20">---</button>
+        <button class="botao_parcial" id="btn_parcial20">---</button>
+    </div>
+    <div>
+        <button class="botao_id">21</button>
+        <button class="botao" id="btn_start21">Start</button>
+        <button class="botao" id="btn_stop21">Stop</button>
+        <button class="botao_inicio" id="btn_inicio21">---</button>
+        <button class="botao_fim" id="btn_fim21">---</button>
+        <button class="botao_parcial" id="btn_parcial21">---</button>
+    </div>
+    <div>
+        <button class="botao_id">22</button>
+        <button class="botao" id="btn_start22">Start</button>
+        <button class="botao" id="btn_stop22">Stop</button>
+        <button class="botao_inicio" id="btn_inicio22">---</button>
+        <button class="botao_fim" id="btn_fim22">---</button>
+        <button class="botao_parcial" id="btn_parcial22">---</button>
+    </div>
+    <div>
+        <button class="botao_id">23</button>
+        <button class="botao" id="btn_start23">Start</button>
+        <button class="botao" id="btn_stop23">Stop</button>
+        <button class="botao_inicio" id="btn_inicio23">---</button>
+        <button class="botao_fim" id="btn_fim23">---</button>
+        <button class="botao_parcial" id="btn_parcial23">---</button>
+    </div>
+    <div>
+        <button class="botao_id">24</button>
+        <button class="botao" id="btn_start24">Start</button>
+        <button class="botao" id="btn_stop24">Stop</button>
+        <button class="botao_inicio" id="btn_inicio24">---</button>
+        <button class="botao_fim" id="btn_fim24">---</button>
+        <button class="botao_parcial" id="btn_parcial24">---</button>
+    </div>
+    <div>
+        <button class="botao_id">25</button>
+        <button class="botao" id="btn_start25">Start</button>
+        <button class="botao" id="btn_stop25">Stop</button>
+        <button class="botao_inicio" id="btn_inicio25">---</button>
+        <button class="botao_fim" id="btn_fim25">---</button>
+        <button class="botao_parcial" id="btn_parcial25">---</button>
+    </div>
+    <div>
+        <button class="botao_id">26</button>
+        <button class="botao" id="btn_start26">Start</button>
+        <button class="botao" id="btn_stop26">Stop</button>
+        <button class="botao_inicio" id="btn_inicio26">---</button>
+        <button class="botao_fim" id="btn_fim26">---</button>
+        <button class="botao_parcial" id="btn_parcial26">---</button>
+    </div>
+    <div>
+        <button class="botao_id">27</button>
+        <button class="botao" id="btn_start27">Start</button>
+        <button class="botao" id="btn_stop27">Stop</button>
+        <button class="botao_inicio" id="btn_inicio27">---</button>
+        <button class="botao_fim" id="btn_fim27">---</button>
+        <button class="botao_parcial" id="btn_parcial27">---</button>
+    </div>
+    <div>
+        <button class="botao_id">28</button>
+        <button class="botao" id="btn_start28">Start</button>
+        <button class="botao" id="btn_stop28">Stop</button>
+        <button class="botao_inicio" id="btn_inicio28">---</button>
+        <button class="botao_fim" id="btn_fim28">---</button>
+        <button class="botao_parcial" id="btn_parcial28">---</button>
+    </div>
+    <div>
+        <button class="botao_id">29</button>
+        <button class="botao" id="btn_start29">Start</button>
+        <button class="botao" id="btn_stop29">Stop</button>
+        <button class="botao_inicio" id="btn_inicio29">---</button>
+        <button class="botao_fim" id="btn_fim29">---</button>
+        <button class="botao_parcial" id="btn_parcial29">---</button>
+    </div>
+    <div>
+        <button class="botao_id">30</button>
+        <button class="botao" id="btn_start30">Start</button>
+        <button class="botao" id="btn_stop30">Stop</button>
+        <button class="botao_inicio" id="btn_inicio30">---</button>
+        <button class="botao_fim" id="btn_fim30">---</button>
+        <button class="botao_parcial" id="btn_parcial30">---</button>
+    </div>
+    <div>
+        <button class="botao_id">31</button>
+        <button class="botao" id="btn_start31">Start</button>
+        <button class="botao" id="btn_stop31">Stop</button>
+        <button class="botao_inicio" id="btn_inicio31">---</button>
+        <button class="botao_fim" id="btn_fim31">---</button>
+        <button class="botao_parcial" id="btn_parcial31">---</button>
+    </div>
+    <div>
+        <button class="botao_id">32</button>
+        <button class="botao" id="btn_start32">Start</button>
+        <button class="botao" id="btn_stop32">Stop</button>
+        <button class="botao_inicio" id="btn_inicio32">---</button>
+        <button class="botao_fim" id="btn_fim32">---</button>
+        <button class="botao_parcial" id="btn_parcial32">---</button>
+    </div>
+    <div>
+        <button class="botao_id">33</button>
+        <button class="botao" id="btn_start33">Start</button>
+        <button class="botao" id="btn_stop33">Stop</button>
+        <button class="botao_inicio" id="btn_inicio33">---</button>
+        <button class="botao_fim" id="btn_fim33">---</button>
+        <button class="botao_parcial" id="btn_parcial33">---</button>
+    </div>
+    <div>
+        <button class="botao_id">34</button>
+        <button class="botao" id="btn_start34">Start</button>
+        <button class="botao" id="btn_stop34">Stop</button>
+        <button class="botao_inicio" id="btn_inicio34">---</button>
+        <button class="botao_fim" id="btn_fim34">---</button>
+        <button class="botao_parcial" id="btn_parcial34">---</button>
+    </div>
+    <div>
+        <button class="botao_id">35</button>
+        <button class="botao" id="btn_start35">Start</button>
+        <button class="botao" id="btn_stop35">Stop</button>
+        <button class="botao_inicio" id="btn_inicio35">---</button>
+        <button class="botao_fim" id="btn_fim35">---</button>
+        <button class="botao_parcial" id="btn_parcial35">---</button>
+    </div>
+    <div>
+        <button class="botao_id">36</button>
+        <button class="botao" id="btn_start36">Start</button>
+        <button class="botao" id="btn_stop36">Stop</button>
+        <button class="botao_inicio" id="btn_inicio36">---</button>
+        <button class="botao_fim" id="btn_fim36">---</button>
+        <button class="botao_parcial" id="btn_parcial36">---</button>
+    </div>
+    <div>
+        <button class="botao_id">37</button>
+        <button class="botao" id="btn_start37">Start</button>
+        <button class="botao" id="btn_stop37">Stop</button>
+        <button class="botao_inicio" id="btn_inicio37">---</button>
+        <button class="botao_fim" id="btn_fim37">---</button>
+        <button class="botao_parcial" id="btn_parcial37">---</button>
+    </div>
+    <div>
+        <button class="botao_id">38</button>
+        <button class="botao" id="btn_start38">Start</button>
+        <button class="botao" id="btn_stop38">Stop</button>
+        <button class="botao_inicio" id="btn_inicio38">---</button>
+        <button class="botao_fim" id="btn_fim38">---</button>
+        <button class="botao_parcial" id="btn_parcial38">---</button>
+    </div>
+    <div>
+        <button class="botao_id">39</button>
+        <button class="botao" id="btn_start39">Start</button>
+        <button class="botao" id="btn_stop39">Stop</button>
+        <button class="botao_inicio" id="btn_inicio39">---</button>
+        <button class="botao_fim" id="btn_fim39">---</button>
+        <button class="botao_parcial" id="btn_parcial39">---</button>
+    </div>
+    <div>
+        <button class="botao_id">40</button>
+        <button class="botao" id="btn_start40">Start</button>
+        <button class="botao" id="btn_stop40">Stop</button>
+        <button class="botao_inicio" id="btn_inicio40">---</button>
+        <button class="botao_fim" id="btn_fim40">---</button>
+        <button class="botao_parcial" id="btn_parcial40">---</button>
+    </div>
+    <div>
+        <button class="botao_id">41</button>
+        <button class="botao" id="btn_start41">Start</button>
+        <button class="botao" id="btn_stop41">Stop</button>
+        <button class="botao_inicio" id="btn_inicio41">---</button>
+        <button class="botao_fim" id="btn_fim41">---</button>
+        <button class="botao_parcial" id="btn_parcial41">---</button>
+    </div>
+    <div>
+        <button class="botao_id">42</button>
+        <button class="botao" id="btn_start42">Start</button>
+        <button class="botao" id="btn_stop42">Stop</button>
+        <button class="botao_inicio" id="btn_inicio42">---</button>
+        <button class="botao_fim" id="btn_fim42">---</button>
+        <button class="botao_parcial" id="btn_parcial42">---</button>
+    </div>
+    <div>
+        <button class="botao_id">43</button>
+        <button class="botao" id="btn_start43">Start</button>
+        <button class="botao" id="btn_stop43">Stop</button>
+        <button class="botao_inicio" id="btn_inicio43">---</button>
+        <button class="botao_fim" id="btn_fim43">---</button>
+        <button class="botao_parcial" id="btn_parcial43">---</button>
+    </div>
+    <div>
+        <button class="botao_id">44</button>
+        <button class="botao" id="btn_start44">Start</button>
+        <button class="botao" id="btn_stop44">Stop</button>
+        <button class="botao_inicio" id="btn_inicio44">---</button>
+        <button class="botao_fim" id="btn_fim44">---</button>
+        <button class="botao_parcial" id="btn_parcial44">---</button>
+    </div>
+    <div>
+        <button class="botao_id">45</button>
+        <button class="botao" id="btn_start45">Start</button>
+        <button class="botao" id="btn_stop45">Stop</button>
+        <button class="botao_inicio" id="btn_inicio45">---</button>
+        <button class="botao_fim" id="btn_fim45">---</button>
+        <button class="botao_parcial" id="btn_parcial45">---</button>
+    </div>
+    <div>
+        <button class="botao_id">46</button>
+        <button class="botao" id="btn_start46">Start</button>
+        <button class="botao" id="btn_stop46">Stop</button>
+        <button class="botao_inicio" id="btn_inicio46">---</button>
+        <button class="botao_fim" id="btn_fim46">---</button>
+        <button class="botao_parcial" id="btn_parcial46">---</button>
+    </div>
+    <div>
+        <button class="botao_id">47</button>
+        <button class="botao" id="btn_start47">Start</button>
+        <button class="botao" id="btn_stop47">Stop</button>
+        <button class="botao_inicio" id="btn_inicio47">---</button>
+        <button class="botao_fim" id="btn_fim47">---</button>
+        <button class="botao_parcial" id="btn_parcial47">---</button>
+    </div>
+    <div>
+        <button class="botao_id">48</button>
+        <button class="botao" id="btn_start48">Start</button>
+        <button class="botao" id="btn_stop48">Stop</button>
+        <button class="botao_inicio" id="btn_inicio48">---</button>
+        <button class="botao_fim" id="btn_fim48">---</button>
+        <button class="botao_parcial" id="btn_parcial48">---</button>
+    </div>
+    <div>
+        <button class="botao_id">49</button>
+        <button class="botao" id="btn_start49">Start</button>
+        <button class="botao" id="btn_stop49">Stop</button>
+        <button class="botao_inicio" id="btn_inicio49">---</button>
+        <button class="botao_fim" id="btn_fim49">---</button>
+        <button class="botao_parcial" id="btn_parcial49">---</button>
+    </div>
+    <div>
+        <button class="botao_id">50</button>
+        <button class="botao" id="btn_start50">Start</button>
+        <button class="botao" id="btn_stop50">Stop</button>
+        <button class="botao_inicio" id="btn_inicio50">---</button>
+        <button class="botao_fim" id="btn_fim50">---</button>
+        <button class="botao_parcial" id="btn_parcial50">---</button>
+    </div>
+
+    <button class="botao" id="btn_reset">Reset</button>
+    <button class="botao" id="btn_total">---</button>
+   
+
+    
+
+    <footer>&#169; Eduardo de Almeida Oliveira</footer>
+</body>
+</html>
