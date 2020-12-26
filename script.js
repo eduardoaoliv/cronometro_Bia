@@ -19,7 +19,16 @@ setInterval( function(){
     mm=dt.getMinutes();
     ss=dt.getSeconds();
     hora_inicio=new Date().getTime();
-    hora_fim=new Date().getTime();    
+    hora_fim=new Date().getTime(); 
+        if(hh<10){
+            hh="0"+hh;
+        }
+        if(mm<10){
+            mm="0"+mm;
+        }
+        if(ss<10){
+            ss="0"+ss;
+        }
 },1000);
 
 var total=0;//usado no cálculo do tempo final
