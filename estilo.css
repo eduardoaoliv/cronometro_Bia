@@ -12,7 +12,6 @@ header{
     margin-top: -30px;
     margin-bottom: 30px;
 }
-
 .indice{
     width: 70px;
     height: 40px; 
@@ -22,67 +21,93 @@ header{
     font-size: 1em;
     background-color: white;
 }
-
-.botao{
+.botao_vetor{
+    display: flex;  
+    background-color: rgb(55,55,55);
+    width: 460px;
+}
+.btn_id{
     width: 70px;
     height: 30px; 
-    margin: 1px;
+    margin: 2px;
     background-color: white;
+    font-weight: bold;   
+}
+.btn_start{
+    width: 70px;
+    height: 30px; 
+    margin: 2px;
+    background-color: white;    
     border-radius: 12px;
     border:3px solid gray;
     border-style: outset;
     box-shadow: 2px 2px 2px 0px black;
 }
-.botao_inicio{
+.btn_stop{
     width: 70px;
     height: 30px; 
-    margin: 1px;
+    margin: 2px 5px 2px 5px;    
     background-color: white;
+    border-radius: 12px;
+    border:3px solid gray;
+    border-style: outset;
+    box-shadow: 2px 2px 2px 0px black;  
 }
-.botao_fim{
+.visor_inicio{
     width: 70px;
     height: 30px; 
-    margin: 1px;
-    background-color: white;
+    margin: 2px 3px 2px 2px;
+    background-color: white;    
 }
-.botao_parcial{
+.visor_fim{
     width: 70px;
     height: 30px; 
-    margin: 1px;
-    background-color: white;
+    margin: 2px 3px 2px 2px;
+    background-color: white;    
 }
-.botao_id{
+.visor_parcial{
     width: 70px;
     height: 30px; 
-    margin: 1px;
-    background-color: white;
-    font-weight: bold;
-}
-
-#btn_reset{
-    height: 40px;
-    margin-left: 190px;
-    margin-top: 30px;
-    font-weight: bold;
-
-}
-#btn_total{
-    height: 40px;
-    margin-left: 10px;
-    margin-top: 40px;
-    font-weight: bold;
-    border-radius: 0px;
+    margin: 2px 3px;
+    background-color: white;    
 }
 #lbl_total{
     color: white;
     font-weight: bold;
     margin-left: 240px;
+    
 }
+#visor_total{
+    height: 40px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    border-radius: 0px;    
+    background-color: white;    
+    border:3px solid gray;
+    border-style: outset;
+    box-shadow: 2px 2px 2px 0px black;
+}
+#btn_reset{
+    height: 40px;
+    margin-left: 190px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
 
+    width: 80px;
+    height: 50px;   
+    background-color: white;
+    border-radius: 10px;
+    border:3px solid gray;
+    border-style: outset;
+    box-shadow: 2px 2px 2px 0px black;
+}
 footer{
     font-style: italic;
     color:white;
     font-size: 1em;
-    margin-top: 10px;
+    margin-top: 30px;
     
 }
