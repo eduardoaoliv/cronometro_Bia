@@ -1,6 +1,6 @@
 body{
     background-color: rgb(55,55,55);
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 header{
@@ -23,19 +23,18 @@ header{
 }
 .botao_vetor{
     display: flex;  
-    background-color: rgb(55,55,55);
-    width: 460px;
+    background-color: rgb(55,55,55);    
 }
 .btn_id{
     width: 70px;
-    height: 30px; 
+    height: 40px; 
     margin: 2px;
     background-color: white;
     font-weight: bold;   
 }
 .btn_start{
     width: 70px;
-    height: 30px; 
+    height: 40px; 
     margin: 2px;
     background-color: white;    
     border-radius: 12px;
@@ -45,7 +44,7 @@ header{
 }
 .btn_stop{
     width: 70px;
-    height: 30px; 
+    height: 40px; 
     margin: 2px 5px 2px 5px;    
     background-color: white;
     border-radius: 12px;
@@ -55,26 +54,26 @@ header{
 }
 .visor_inicio{
     width: 70px;
-    height: 30px; 
+    height: 40px; 
     margin: 2px 3px 2px 2px;
     background-color: white;    
 }
 .visor_fim{
     width: 70px;
-    height: 30px; 
+    height: 40px; 
     margin: 2px 3px 2px 2px;
     background-color: white;    
 }
 .visor_parcial{
     width: 70px;
-    height: 30px; 
+    height: 40px; 
     margin: 2px 3px;
     background-color: white;    
 }
 #lbl_total{
     color: white;
     font-weight: bold;
-    margin-left: 240px;
+    margin-left: 190px;
     
 }
 #visor_total{
