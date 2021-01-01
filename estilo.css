@@ -1,6 +1,7 @@
 body{
     background-color: rgb(55,55,55);
     margin-left: 5px;
+    color:white;
 }
 
 header{
@@ -12,10 +13,16 @@ header{
     margin-top: -30px;
     margin-bottom: 30px;
 }
+
+.conteiner{
+    display: flex;
+    width: 420px;       
+}
+
 .indice{
     width: 70px;
     height: 40px; 
-    margin: 2px 3px 8px 2px;    
+    margin: 2px 3px 8px 3px;    
     font-weight: bold;
     font-size: 1em;
     background-color: white;
@@ -31,8 +38,34 @@ header{
 .botao_vetor{
     display: flex;  
     background-color: rgb(55,55,55);
-    width: 410px;    
+    width: 420px;        
 }
+#reset{
+    margin-left: 30px;
+}
+
+
+#coluna_id{
+    width: 40px;
+
+}
+#coluna_start{
+    width: 80px;    
+}
+#coluna_stop{
+    width: 80px;    
+}
+#coluna_inicio{
+    width: 80px;    
+}
+#coluna_fim{
+    width: 80px;    
+}
+#coluna_parcial{
+    width: 80px;    
+}
+
+
 .btn_id{
     width: 40px;
     height: 40px; 
@@ -40,44 +73,47 @@ header{
     background-color: white;
     font-weight: bold;   
 }
-.btn_start{
+.btn_start{ 
     width: 70px;
     height: 40px; 
-    margin: 2px;
+    margin: 2px 4px 2px 4px;
     background-color: white;    
     border-radius: 12px;
     border:3px solid gray;
     border-style: outset;
     box-shadow: 2px 2px 2px 0px black;
 }
-.btn_stop{
+.btn_stop{  
     width: 70px;
     height: 40px; 
-    margin: 2px 5px 2px 5px;    
+    margin: 2px 4px 2px 4px;    
     background-color: white;
     border-radius: 12px;
     border:3px solid gray;
     border-style: outset;
-    box-shadow: 2px 2px 2px 0px black;  
+    box-shadow: 2px 2px 2px 0px black;
 }
 .visor_inicio{
     width: 70px;
     height: 40px; 
     margin: 2px 3px 2px 2px;
-    background-color: white;    
+    background-color: white;
 }
 .visor_fim{
     width: 70px;
     height: 40px; 
     margin: 2px 3px 2px 2px;
-    background-color: white;    
+    background-color: white;
 }
 .visor_parcial{
     width: 70px;
     height: 40px; 
     margin: 2px 3px;
-    background-color: white;    
+    background-color: white;
 }
+
+
+
 #lbl_total{
     color: white;
     font-weight: bold;

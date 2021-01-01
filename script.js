@@ -1,5 +1,6 @@
 
 window.addEventListener("load",main);
+//Variáveis
 var btn_reset;
 var botoes_start;
 var botoes_stop;
@@ -40,9 +41,89 @@ setInterval( function(){
     }
 },500);
 
+//Fim variáveis
 
-function main(){    
+var qdade=0;
+var enviar;
+var zerar;
+var conteiner;
+var i;
+var btn;
+var div_main;
+
+function main(){            
+    enviar=document.getElementById("enviar");
+    enviar.addEventListener("click",criar);
+    zerar=document.getElementById("reset");
+    zerar.addEventListener("click",resetar);
+    conteiner=document.getElementById("conteiner");
+    col_id=document.getElementById("coluna_id");
+    col_start=document.getElementById("coluna_start");
+    col_stop=document.getElementById("coluna_stop");    
+    col_inicio=document.getElementById("coluna_inicio");
+    col_fim=document.getElementById("coluna_fim");
+    col_parcial=document.getElementById("coluna_parcial");
     btn_reset=document.getElementById("btn_reset").addEventListener("click",reset);
+}
+
+
+//////////////////Cria os botões///////////////////////////////
+function criar(){
+    qdade=document.getElementById("qdade");
+    
+    for(i=0;i<qdade.value;i++){     
+        btn=document.createElement("button");               
+        btn.setAttribute("class","btn_id");
+        btn.innerHTML=i;        
+        col_id.appendChild(btn);                
+        }
+    
+    for(i=0;i<qdade.value;i++){     
+        btn=document.createElement("button");               
+        btn.setAttribute("class","btn_start");
+        btn.setAttribute("name",i);
+        btn.innerHTML="start";      
+        col_start.appendChild(btn);             
+        }
+
+    for(i=0;i<qdade.value;i++){
+        btn=document.createElement("button");           
+        btn.setAttribute("class","btn_stop");
+        btn.setAttribute("name",i);
+        btn.innerHTML="stop";           
+        col_stop.appendChild(btn);      
+        }
+    for(i=0;i<qdade.value;i++){     
+        btn=document.createElement("button");               
+        btn.setAttribute("class","visor_inicio");
+        btn.innerHTML="---";        
+        col_inicio.appendChild(btn);                
+        }
+    
+    for(i=0;i<qdade.value;i++){     
+        btn=document.createElement("button");               
+        btn.setAttribute("class","visor_fim");
+        btn.innerHTML="---";        
+        col_fim.appendChild(btn);               
+        }
+
+    for(i=0;i<qdade.value;i++){
+        btn=document.createElement("button");           
+        btn.setAttribute("class","visor_parcial");
+        btn.innerHTML="---";            
+        col_parcial.appendChild(btn);       
+        }
+            
+    qdade.value=0;
+    start();
+    stop();
+}       
+
+
+
+
+    function start(){
+        
 ////////////////////////////////// START ///////////////////////////////////////
     botoes_start=document.getElementsByClassName("btn_start");
     for(i=0;i<botoes_start.length;i++){
@@ -53,9 +134,12 @@ function main(){
             //escreve a hora capturada no display inicio     
             visor_inicio=document.getElementsByClassName("visor_inicio");
             visor_inicio[this.name].innerHTML=(hh+":"+mm+":"+ss);  
-});     
-    }
-////////////////////////////////// STOP ///////////////////////////////////////
+        });     
+        }
+}
+
+    function stop(){
+        ////////////////////////////////// STOP ///////////////////////////////////////
     botoes_stop=document.getElementsByClassName("btn_stop");
     for(i=0;i<botoes_stop.length;i++){
         botoes_stop[i].addEventListener("click",function(){
@@ -71,9 +155,14 @@ function main(){
             tempofinal(parcial); 
         });     
     }
-
 }
 
+
+///////////////////Apagar todos os botões para nova seleção da quantidade//////////////////////
+function resetar(){     
+    window.location.reload();   
+}
+        
 ///////////////////  Calcula o tempo total das ID's ////////////////////////         
 function tempofinal(x){
     total=(total+x);
@@ -123,4 +212,4 @@ function reset(){
     document.getElementById("visor_total").innerHTML="---";
     total=0;    
        
-}
+}   
